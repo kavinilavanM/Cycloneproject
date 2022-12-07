@@ -7,7 +7,7 @@ from pathlib import Path
 
 flask_app = Flask(__name__)
 
-abspath = Path('model/model.pkl')
+abspath = Path('model.pkl')
 
 
 with open(abspath, 'rb') as savefile:
